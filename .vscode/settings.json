@@ -1,0 +1,37 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "PG local",
+            "database": "JOINS",
+            "username": "postgres",
+            "password": "Mary 2525.",
+            "connectionTimeout": 30
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "data2",
+            "database": "Gomycode",
+            "username": "postgres",
+            "password": "Mary 2525.",
+            "connectionTimeout": 30
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "data 3",
+            "database": "Gomycode 2",
+            "username": "postgres",
+            "password": "Mary 2525.",
+            "connectionTimeout": 30
+        }
+    ]
+}
