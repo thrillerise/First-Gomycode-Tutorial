@@ -88,8 +88,9 @@ FROM
     LEFT JOIN employee_project ep ON e.num_e = ep.employee_num_e
     LEFT JOIN project p ON ep.project_num_p = p.num_p;
 
-/*Write a query to retrieve the total salary expenditure for each department, 
-including the department label and manager name.*/
+/ QUESTION 8 * Write a query to retrieve the total salary expenditure for each department,
+including the department label
+and manager name.* /
 SELECT
     d.label AS department_label,
     d.manager_name AS manager_name,
